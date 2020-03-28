@@ -28,8 +28,8 @@ With **[Docker](https://www.docker.com)**, you can quickly build and run the ent
 
 ```shell
 # 1. First, clone the repo
-$ git clone https://github.com/ahmed3991/Covid-19-X-Rays-Detector
-$ cd Covid-19-X-Rays-Detector
+$ git clone https://github.com/khaledbay/Detector
+$ cd Detector
 
 # 2. Build Docker image
 $ docker build -t covid19_app .
@@ -46,8 +46,8 @@ It's easy to install and run it on your computer.
 
 ```shell
 # 1. First, clone the repo
-$ git clone https://github.com/ahmed3991/Covid-19-X-Rays-Detector
-$ cd Covid-19-X-Rays-Detector
+$ git clone https://github.com/khaledbay/Detector
+$ cd Detector
 
 # 2. Install Python packages
 $ pip install -r requirements.txt
