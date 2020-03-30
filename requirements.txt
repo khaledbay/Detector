@@ -4,4 +4,4 @@ numpy
 gevent
 pillow
 h5py
-tensorflow
+Keras
