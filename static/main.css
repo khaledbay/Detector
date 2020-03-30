@@ -38,6 +38,10 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  background-image: url(https://i.imgur.com/2o81gxz.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
 }
 
 .main .title h3 {
