@@ -25,17 +25,17 @@ app = Flask(__name__)
 
 # You can use pretrained model from Keras
 # Check https://keras.io/applications/
-#from keras.applications.mobilenet_v2 import MobileNetV2
-#model = MobileNetV2(weights='imagenet')
+from keras.applications.mobilenet_v2 import MobileNetV2
+model = MobileNetV2(weights='imagenet')
 
 #print('Model loaded. Check http://127.0.0.1:5000/')
 
 
 # Model saved with Keras model.save()
-MODEL_PATH = 'models/covid19.model'
+#MODEL_PATH = 'models/covid19.model'
 
 # Load your own trained model
-model = load_model(MODEL_PATH)
+#model = load_model(MODEL_PATH)
 
 labels=['covid','normal']
 model._make_predict_function()          # Necessary
