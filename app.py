@@ -64,10 +64,10 @@ def index():
     # Main page
     return render_template('index.html')
 
-@app.route('/ar', methods=['GET'])
-def index_ar():
-    # Main page
-    return render_template('index_ar.html')
+#@app.route('/ar', methods=['GET'])
+#def index_ar():
+#    # Main page
+#    return render_template('index_ar.html')
 
 @app.route('/predict', methods=['GET', 'POST'])
 def predict():
