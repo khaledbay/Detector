@@ -6,7 +6,7 @@
 > A web app to detect covid-19 with accuracy of 92%-90% from chest X-rays of patients 
 
 
-## Getting started in 10 minutes
+## Please follow these steps to run app
 
 - Clone this repo 
 - Install requirements
